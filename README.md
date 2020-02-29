@@ -5,6 +5,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 ### Prerequisites
 
+- Open Parking and Camera Violations API
 - Creating a Docker Account 
 - Dowloading Docker to Ubuntu 18.04 
 - Docker Configuration
@@ -24,6 +25,15 @@ docker push benitad/bigdata1
 
 ## Deployment
 
+```
+[{'plate': 'FFY8675',
+  'state': 'NY',
+  'license_type': 'PAS',
+  'summons_number': '7148276779',
+  'issue_date': '01/06/2011',
+  'summons_image': {'url': 'http://nycserv.nyc.gov/NYCServWeb/ShowImage?searchID=VG5wRk1FOUVTVE5PYW1NelQxRTlQUT09&locationName=_____________________',
+   'description': 'View Summons'}}]
+```
 
 
 ## Built With
