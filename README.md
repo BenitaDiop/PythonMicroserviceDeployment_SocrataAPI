@@ -8,29 +8,17 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 - Creating a Docker Account 
 - Dowloading Docker to Ubuntu 18.04 
 - Docker Configuration
+- Docker Image Build
 - Dowloading Git 
 - Git Configuration 
 
 
 ### Installing
 ```
-import keys
-import os
-import json 
-import pandas as pd
-import docker
-
-import keys
-import os
-from sodapy import Socrata 
-client = Socrata("data.cityofnewyork.us", 
-                 keys.access_token,
-                 keys.api_key_name, 
-                 keys.api_secret)
-
-OPCV = client.get("nc67-uf89", limit=10)
-OPCV_df = pd.DataFrame.from_records(OPCV)
-OPCV_df
+docker build -t bigdata1:1.0 .
+docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
+docker tag 005136a55f9f benitad/bigdata1:1.0
+docker push benitad/bigdata1
 ```
 
 ## Deployment
