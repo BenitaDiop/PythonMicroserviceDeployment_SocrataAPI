@@ -15,6 +15,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 ### Installing
 ```
+# Docker Image Build 
 docker build -t bigdata1:1.0 .
 docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
 docker tag 005136a55f9f benitad/bigdata1:1.0
