@@ -14,7 +14,23 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 ### Installing
 ```
-https://c87a93b7-9fa6-47a1-b57a-291bbfbece41.ws-us02.gitpod.io/files/download/?id=5cbec5dd-184d-4bf4-8e51-3a598dfe5f72
+import keys
+import os
+import json 
+import pandas as pd
+import docker
+
+import keys
+import os
+from sodapy import Socrata 
+client = Socrata("data.cityofnewyork.us", 
+                 keys.access_token,
+                 keys.api_key_name, 
+                 keys.api_secret)
+
+OPCV = client.get("nc67-uf89", limit=10)
+OPCV_df = pd.DataFrame.from_records(OPCV)
+OPCV_df
 ```
 
 ## Deployment
