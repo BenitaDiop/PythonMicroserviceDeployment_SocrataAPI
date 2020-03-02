@@ -8,11 +8,11 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 </br>
 
-- **Python:** The goal is to build and refactor code into create two sepearate functions that:
+- **PYTHON:** The goal is to build and refactor code into create two sepearate functions that:
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 	</br>
-- **Docker:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application
+- **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application
 	1. ***BUILD*** Developing Dockerfile to build a sequential set of instruction for Docker Engine.
 		+ Fudamental Instructions 
 		+ Configuration Instructions 
@@ -24,10 +24,10 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
-- **ElasticSearch**
+- **ELASTICSEARCH**
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- **Kibana**
+- **KIBANA**
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
