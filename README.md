@@ -1,33 +1,30 @@
 # ParkingViolations
-Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. In this project a Docker container will be created, the data will be loaded to an ElasticSearch instance and then visualized with Kibana.
+Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
+
 </br>
-## Outline 
+## Objective 
 </br>
 
 - **Python:** The goal is to build and refactor code into create two sepearate functions that:
-	1. Get the arguments from the command line 
-	2. Does the real work but be capable of reproducibility. 
+	1. Gets the arguments from the command line. 
+	2. Does the real work of pulling API data but be capable of reproducibility. 
 	</br>
--**Docker:** 	
-	+
-	+
-	+
+- **Docker:** 	
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
--**EC2** 
-	+
-	+
+- **EC2** 
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
--**Kibana**
-	+
-	+
+- **Kibana**
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
+</br>
 
-
-
- 
-
--
- 
+</br>
 
 
 #### API DATA
