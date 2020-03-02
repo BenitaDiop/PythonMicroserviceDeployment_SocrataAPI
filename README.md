@@ -14,14 +14,15 @@ The goal is to build and refactor code into create two sepearate functions that:
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 ********
 <br/> 
+
+
+
 ### DOCKER
 Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
 
 #### 1.)Docker Engine: Manage individual containers on Docker command line interface 
 <br/>
-<b>BUILD </b>Designed Dockerfile to build a sequential set<br/>
-33
-<br/> of instruction for Docker Engine. <br/>
+<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 	1. Fudamental Instructions.
 	2. Configuration Instructions.
 	3. Execution Instructions. 
