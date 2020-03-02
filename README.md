@@ -11,20 +11,15 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 - **PYTHON:** The goal is to build and refactor code into create two sepearate functions that:
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
-	</br>
+
 - **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application </br>
-	
 	I. ***Docker Engine*** - Managed individual containers on Docker command line interface.
-	</br> 
-		
 		1. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. 
-			+ Fudamental Instructions 
-			+ Configuration Instructions
-			+ Execution Instructions
-		
+						+ Fudamental Instructions 
+						+ Configuration Instructions
+						+ Execution Instructions
 		2. SHIP --- Developed Docker Image which hold the entire package need to run applications 
-		
-		3. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.
+		3. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.<br>
 	
 	II. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command.
 		
