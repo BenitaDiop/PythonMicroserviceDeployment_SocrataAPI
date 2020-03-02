@@ -1,46 +1,47 @@
-<html> <center> <h1> Parking Violations API Pull and Python Microsservice Development </h1> </center> 
+# Parking Violations API Pull and Python Microsservice Development
 
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
 
 
 
-## Objective:  
+## Objective:
+*********
 <br/>
 
-- **PYTHON:** The goal is to build and refactor code into create two sepearate functions that: <br/>
+### PYTHON
+The goal is to build and refactor code into create two sepearate functions that: <br/>
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
+****
+### DOCKER
+Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
 
-- **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
-	1. ***Docker Engine*** - Managed individual containers on Docker command line interface.<br/>
-		A. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
-				<p style="text-align: left">
-						+ Fudamental Instructions <br/>
-						+ Configuration Instructions <br/>
-						+ Execution Instructions <br/> 
-</p>
-		B. SHIP --- Developed Docker Image which hold the entire package need to run applications <br/>
-		C. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.<br/>
-	2. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command. \n	
-		1. Lorem ipsum dolor sit amet <br/>
-		2. Lorem ipsum dolor sit amet <br/>
-		3. Lorem ipsum dolor sit amet <br/>
+##### 1.)Docker Engine: Manage individual containers on Docker command line interface
+A. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+		1. Fudamental Instructions <br/>
+		2. Configuration Instructions <br/>
+		3. Execution Instructions <br/> 
+B. SHIP --- Developed Docker Image which hold the entire package need to run applications <br/>
+C. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.<br/>
+#####  2.) Docker Compose:: Defining multi-container applications in a single file and then spin up the same application in a single command
+1. Lorem ipsum dolor sit amet <br/>
+2. Lorem ipsum dolor sit amet <br/>
+3. Lorem ipsum dolor sit amet <br/>
 	</br>
-
-- **AWS EC2** 
-
-	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	</br>
-	
-- **ELASTICSEARCH**
-
-	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	
-- **KIBANA**
-	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+*******
+### AWS EC2
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	<br\>
+********
+### ELASTICSEARCH
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+<br\>
+*******
+### KIBANA
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 </br>
 
