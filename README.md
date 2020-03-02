@@ -15,6 +15,7 @@ The goal is to build and refactor code into create two sepearate functions that:
 
 ### DOCKER -- Utilized docker open-source platform to build, ship and run  a conatinerizaed application 
 <br/>
+
 #### 1.)Docker Engine: 
 Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. 
 <br/>
