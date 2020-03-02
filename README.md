@@ -13,16 +13,16 @@ The goal is to build and refactor code into create two sepearate functions that:
 	
 ********
 
-### DOCKER -- Utilized docker open-source platform to build, ship and run  a conatinerizaed application 
+### DOCKER
+<b> Utilized docker open-source platform to build, ship and run  a conatinerizaed application </b>
 <br/>
 
-#### 1.)Docker Engine: 
-Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. 
+<b> Docker Engine: Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. <b/></br>
 <br/>
 <b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 <h25>	1. Fudamental Instructions.
 	2. Configuration Instructions.
-	3. Execution Instructions. <h25/>
+	3. Execution Instructions. </h25>
 <br/>	
 <b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
 <br/>	
@@ -30,7 +30,7 @@ Manageing individual containers on Docker command line interface by accessing Do
 <br/>
 <br/>
 	
-#### 2.) Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command
+<b> 2.) Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command </b>
 1. Lorem ipsum dolor sit amet <br/>
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
