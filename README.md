@@ -7,8 +7,8 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 ## Objective:
 *********
 ### PYTHON
-The goal is to build and refactor code into create two sepearate functions that: <br/>
-	1. Gets the arguments from the command line. 
+The goal is to build and refactor code into two sepearate components that individually: <br/>
+	1. Gets the arguments from the command line interface. 
 	2. Does the real work of pulling API data but be capable of reproducibility. <br/>
 	
 ********
