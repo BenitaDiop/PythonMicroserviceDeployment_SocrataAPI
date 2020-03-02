@@ -14,7 +14,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	</br>
 - **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application </br>
 	
-	I. Docker Engine - Managed individual containers on Docker command line interface.
+	I. ***Docker Engine*** - Managed individual containers on Docker command line interface.
 	</br> 
 		
 		1. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. 
@@ -26,7 +26,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 		
 		3. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.
 	
-	II. Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command.
+	II. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command.
 		
 		1. Lorem ipsum dolor sit amet
 		2. Lorem ipsum dolor sit amet
@@ -84,8 +84,6 @@ docker push benitad/bigdata1
 
 #### Helpful Documentation 
 
-* [Docker](https://hub.docker.com/r/benitad/bigdata1) - Containerization
-* [Git](https://git-scm.com//) - Source Code Mangement 
-* [Jupyter Notebook](https://jupyter.org/) - Interactive Computing Notebook
+* [Socrata Open Data API](https://dev.socrata.com/)
 
 
