@@ -19,16 +19,16 @@ Utilized docker open-source platform to build, ship and run  a conatinerizaed ap
 
 #### 1.)Docker Engine: Manage individual containers on Docker command line interface 
 <br/>
-<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+<b>BUILD </b>Designed Dockerfile to build a sequential set<br/>
+33
+<br/> of instruction for Docker Engine. <br/>
 	1. Fudamental Instructions.
 	2. Configuration Instructions.
 	3. Execution Instructions. 
-<br/>
-	
-<b> SHIP <b/> Developed Docker Image which hold the entire package need to run applications 
-<br/>
-	
-<b> RUN <b/> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
+<br/>	
+<b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
+<br/>	
+<b> RUN </b> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
 <br/>
 <br/>
 	
