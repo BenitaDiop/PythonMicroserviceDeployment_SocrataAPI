@@ -1,8 +1,10 @@
 # ParkingViolations
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
 
-</br>
+
+
 ## Objective 
+
 </br>
 
 - **Python:** The goal is to build and refactor code into create two sepearate functions that:
@@ -10,17 +12,17 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 	</br>
 - **Docker:** 	
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	3. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
 - **EC2** 
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
 - **Kibana**
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	+ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 </br>
 
