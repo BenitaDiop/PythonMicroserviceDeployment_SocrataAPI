@@ -12,15 +12,21 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 	</br>
-- **Docker:** 	
+- **Docker:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application
+	1. ***BUILD*** Developing Dockerfile to build a sequential set of instruction for Docker Engine.
+		+ Fudamental Instructions 
+		+ Configuration Instructions 
+		+ Execution Instructions
+	2. ***SHIP*** Engineered Docker Image Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	3. ***RUN*** Boosting scalability with Docker Container by shipping ready to run containers that accompanied by neceassary dependencies.
+	</br>
+- **AWS EC2** 
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	3. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
-- **EC2** 
+- **ElasticSearch**
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	</br>
 - **Kibana**
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
