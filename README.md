@@ -13,8 +13,7 @@ The goal is to build and refactor code into create two sepearate functions that:
 	
 ********
 
-### DOCKER
-Utilized docker open-source platform to build, ship and run  a conatinerizaed application 
+### DOCKER -- Utilized docker open-source platform to build, ship and run  a conatinerizaed application 
 <br/>
 #### 1.)Docker Engine: 
 Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. 
@@ -30,7 +29,7 @@ Manageing individual containers on Docker command line interface by accessing Do
 <br/>
 <br/>
 	
-#### 2.)Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command
+#### 2.) Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command
 1. Lorem ipsum dolor sit amet <br/>
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
