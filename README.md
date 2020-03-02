@@ -13,24 +13,22 @@ The goal is to build and refactor code into create two sepearate functions that:
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 ********
-<br/>
+<br/> 
 ### DOCKER
 Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
 
 #### 1.)Docker Engine: Manage individual containers on Docker command line interface 
 <br/>
-<b> BUILD </b>
-Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 	1. Fudamental Instructions.
 	2. Configuration Instructions.
 	3. Execution Instructions.
-##### SHIP
-Developed Docker Image which hold the entire package need to run applications <br/>
-#### RUN
-Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
+<b> SHIP <b/> Developed Docker Image which hold the entire package need to run applications <br/>
+<b> RUN <b/> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
 <br/>
-<br>
-####  2.) Docker Compose:: Defining multi-container applications in a single file and then spin up the same application in a single command
+<br/>
+	
+####  2.)Docker Compose:: Defining multi-container applications in a single file and then spin up the same application in a single command
 1. Lorem ipsum dolor sit amet <br/>
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
