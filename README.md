@@ -14,9 +14,10 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 - **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
 	1. ***Docker Engine*** - Managed individual containers on Docker command line interface.<br/>
 		A. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+				<p style="text-align: center">
 				+ Fudamental Instructions <br/>
 				+ Configuration Instructions <br/>
-				+ Execution Instructions <br/>
+				+ Execution Instructions <br/> </p>
 		B. SHIP --- Developed Docker Image which hold the entire package need to run applications <br/>
 		C. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.<br/>
 	2. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command. \n	
