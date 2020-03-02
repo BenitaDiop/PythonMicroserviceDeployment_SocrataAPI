@@ -12,7 +12,8 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 The goal is to build and refactor code into create two sepearate functions that: <br/>
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
-****
+********
+<br>
 ### DOCKER
 Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
 
@@ -32,17 +33,27 @@ Deployed Docker Container to boost application scalability shipping a ready to r
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
 	</br>
+
+```bash
+docker build -t bigdata1:1.0 .
+docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
+docker tag 005136a55f9f benitad/bigdata1:1.0
+docker push benitad/bigdata1
+```
+
 *******
 ### AWS EC2
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	<br\>
+	
 ********
+<br\>
 ### ELASTICSEARCH
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-<br\>
+
 *******
+<br\>
 ### KIBANA
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -70,13 +81,6 @@ Deployed Docker Container to boost application scalability shipping a ready to r
 
 
 
-### Docker Engine
-```bash
-docker build -t bigdata1:1.0 .
-docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
-docker tag 005136a55f9f benitad/bigdata1:1.0
-docker push benitad/bigdata1
-```
 
 #### Deployment
 
