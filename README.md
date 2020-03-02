@@ -13,19 +13,17 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 
 - **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application </br>
-	1. ***Docker Engine*** - Managed individual containers on Docker command line interface.
-		A. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. 
-				```
-				+ Fudamental Instructions 
-				+ Configuration Instructions
-				+ Execution Instructions
-				```
-		B. SHIP --- Developed Docker Image which hold the entire package need to run applications 
-		C. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.	
-	2. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command.</br>		
-		1. Lorem ipsum dolor sit amet
-		2. Lorem ipsum dolor sit amet
-		3. Lorem ipsum dolor sit amet
+	1. ***Docker Engine*** - Managed individual containers on Docker command line interface.\n
+		A. BUILD --- Designed Dockerfile to build a sequential set of instruction for Docker Engine. \n
+				+ Fudamental Instructions \n
+				+ Configuration Instructions \n
+				+ Execution Instructions \n
+		B. SHIP --- Developed Docker Image which hold the entire package need to run applications \n
+		C. RUN --- Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies.\n
+	2. ***Docker Compose:*** Defining multi-container applications in a single file and then spin up the same application in a single command. \n	
+		1. Lorem ipsum dolor sit amet \n
+		2. Lorem ipsum dolor sit amet \n
+		3. Lorem ipsum dolor sit amet \n
 	</br>
 
 - **AWS EC2** 
