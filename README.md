@@ -12,26 +12,38 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 	</br>
-- **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application
+- **DOCKER:** Utilized docker open-source platform to build, ship and run  a conatinerizaed application </br>
+	
 	I. Docker Engine - Managed individual containers on Docker command line interface.
-		1. ***BUILD*** Developied Dockerfile to build a sequential set of instruction for Docker Engine.
+	</br> 
+		
+		1. ***BUILD*** Developied Dockerfile to build a sequential set of instruction for Docker Engine. </br>
 			+ Fudamental Instructions 
-			+ Configuration Instructions 
+			+ Configuration Instructions
 			+ Execution Instructions
-		2. ***SHIP*** Engineered Docker Image which hold the entire package need to run applications
+		
+		2. ***SHIP*** Engineered Docker Image which hold the entire package need to run applications 
+		
 		3. ***RUN*** Boosting scalability with Docker Container by shipping ready to run isolated applications that accompanied by neceassary dependencies.
+	
 	II. Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command.
+		
 		1. Lorem ipsum dolor sit amet
 		2. Lorem ipsum dolor sit amet
 		3. Lorem ipsum dolor sit amet
 	</br>
+
 - **AWS EC2** 
+
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	</br>
+	
 - **ELASTICSEARCH**
+
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	
 - **KIBANA**
 	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -58,18 +70,8 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 ```
 
 
-### Prerequisites
 
-- Open Parking and Camera Violations API
-- Creating a Docker Account 
-- Dowloading Docker to Ubuntu 18.04 
-- Docker Configuration
-- Docker Image Build
-- Dowloading Git 
-- Git Configuration 
-
-
-### Docker Installation Code
+### Docker Engine
 ```bash
 docker build -t bigdata1:1.0 .
 docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
@@ -77,7 +79,7 @@ docker tag 005136a55f9f benitad/bigdata1:1.0
 docker push benitad/bigdata1
 ```
 
-## Deployment
+#### Deployment
 
 
 #### Helpful Documentation 
