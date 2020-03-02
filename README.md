@@ -1,4 +1,4 @@
-# Parking Violations API Pull and Python Microsservice Development
+# Python Microsservice Development With Parking Violations API
 
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
 
@@ -12,7 +12,6 @@ The goal is to build and refactor code into create two sepearate functions that:
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 ********
-<br/> 
 
 ### DOCKER
 Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
