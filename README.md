@@ -16,8 +16,8 @@ The goal is to build and refactor code into create two sepearate functions that:
 ### DOCKER
 <b> Utilized docker open-source platform to build, ship and run  a conatinerizaed application </b>
 <br/>
-
-<b> Docker Engine: Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. <b/></br>
+<h10>
+<b> Docker Engine: Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b></br>
 <br/>
 <b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 <h25>	1. Fudamental Instructions.
@@ -35,7 +35,7 @@ The goal is to build and refactor code into create two sepearate functions that:
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
 	</br>
-
+</h10>
 ```bash
 docker build -t bigdata1:1.0 .
 docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
