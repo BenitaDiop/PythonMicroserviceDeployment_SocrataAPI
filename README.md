@@ -7,15 +7,12 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 ## Objective:
 *********
 <br/>
-
 ### PYTHON
 The goal is to build and refactor code into create two sepearate functions that: <br/>
 	1. Gets the arguments from the command line. 
 	2. Does the real work of pulling API data but be capable of reproducibility. 
 ********
 <br/> 
-
-
 
 ### DOCKER
 Utilized docker open-source platform to build, ship and run  a conatinerizaed application <br/>
@@ -51,13 +48,13 @@ docker push benitad/bigdata1
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 	
 ********
-<br\>
+
 ### ELASTICSEARCH
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 *******
-<br\>
+
 ### KIBANA
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -67,7 +64,7 @@ docker push benitad/bigdata1
 </br>
 
 
-#### API DATA
+### API DATA
 ```python
 	plate	state	license_type	summons_number	issue_date	violation_time	violation	judgment_entry_date	fine_amount	penalty_amount	interest_amount	reduction_amount	payment_amount	amount_due	precinct	county	issuing_agency	summons_image	violation_status
 0	DN9F942	TX	PAS	7000233503	01/11/2016	08:43A	NO PARKING-DAY/TIME LIMITS	04/28/2016	60	60	41.64	0	0	161.64	108	Q	TRAFFIC	{'url': 'http://nycserv.nyc.gov/NYCServWeb/ShowImage?searchID=VG5wQmQwMUVTWHBOZWxWM1RYYzlQUT09&locationName=_____________________', 'description': 'View Summons'}	
@@ -86,10 +83,10 @@ docker push benitad/bigdata1
 
 
 
-#### Deployment
+## Deployment
 
 
-#### Helpful Documentation 
+## Useful Documentation 
 
 * [Socrata Open Data API](https://dev.socrata.com/)
 
