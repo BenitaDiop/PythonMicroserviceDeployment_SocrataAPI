@@ -19,11 +19,11 @@ The goal is to build and refactor code into create two sepearate functions that:
 <br/>
 
 <h10>
-<b> Docker Engine: Manageing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
-<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
-<h25>	1. Fudamental Instructions.
-	2. Configuration Instructions.
-	3. Execution Instructions. </h25>
+<b> Docker Engine: Managing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
+<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. Str <br/>
+<center> <h25>	1st.) Fudamental Instructions.
+		2nd.) Configuration Instructions.
+		3rd.) Execution Instructions. </h25> </center>
 <br/>	
 <b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
 <br/>	
