@@ -22,13 +22,14 @@ Utilized docker open-source platform to build, ship and run  a conatinerizaed ap
 <b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 	1. Fudamental Instructions.
 	2. Configuration Instructions.
-	3. Execution Instructions.
+	3. Execution Instructions. 
+	<br/>
 <b> SHIP <b/> Developed Docker Image which hold the entire package need to run applications <br/>
 <b> RUN <b/> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
 <br/>
 <br/>
 	
-####  2.)Docker Compose:: Defining multi-container applications in a single file and then spin up the same application in a single command
+#### 2.)Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command
 1. Lorem ipsum dolor sit amet <br/>
 2. Lorem ipsum dolor sit amet <br/>
 3. Lorem ipsum dolor sit amet <br/>
