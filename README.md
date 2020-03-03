@@ -70,10 +70,10 @@ def get_data(options):
 
 <h10>
 <b> Docker Engine: Managing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
-<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. Str <br/>
-<center> <h25>	1st.) Fudamental Instructions.
-		2nd.) Configuration Instructions.
-		3rd.) Execution Instructions. </h25> </center>
+<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+		1st.) Fudamental Instructions. <br/>
+		2nd.) Configuration Instructions. <br/>
+		3rd.) Execution Instructions. <br/> 
 <br/>	
 <b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
 <br/>	
