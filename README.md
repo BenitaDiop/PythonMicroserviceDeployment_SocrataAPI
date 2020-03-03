@@ -51,7 +51,7 @@ def get_data(options):
 		options.num_pages = count // options.page_size + 1 
 	for options.output in options != "results.json": 
 		print outfile
-	if options.page_size in xrange(1,100):
+	if options.page_size in xrange(1,1000):
 		if options.output is "dataset.json": 
 			with open('results.json', 'a') as outfile:
 					for info in outfile: 
