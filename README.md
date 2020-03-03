@@ -1,4 +1,4 @@
-# Python Microservice Architecture With Parking Violations API
+# Python Microservice Architecture With Socrata API
 
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
 
@@ -7,9 +7,10 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 ## Objective:
 *********
 ### PYTHON
-The goal is to build and refactor code into two sepearate components that individually: <br/>
-	1. Gets the arguments from the command line interface. 
-	2. Does the real work of pulling API data but be capable of reproducibility. <br/>
+The goal is to build and refactor script into two sepearate components that will respectively: <br/>
+	1. Recieve arguments from command line interface. 
+	2. Pull API data but be capable of reproducibility. 
+	3. Give client the option to print results as a .json file or stdout <br/>
 
 ``` python
 import json 
