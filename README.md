@@ -12,55 +12,49 @@ The goal is to build and refactor code into two sepearate components that indivi
 	2. Does the real work of pulling API data but be capable of reproducibility. <br/>
 
 ``` python
+import json 
+from sodapy import Socrata 
 import argparse
 
-page_size = input("Type desired record per API Call > ") 
-print("[+] Requested" + "  " + page_size + " " + "Records from the API per call")
-
-num_pages = input("Type desired query quanity > ")
-print("[+] Requested To query" + "  " + num_pages + "x")
-
-output = input("Out Options: stdout or .json > ")
-print("[+] Requested output" + " " +output)
+data = Socrata(domain, APP_KEY)
+data_count = Socrata(domain, APP_KEY,).get(client_id, select ='COUNT(*)')
+count = int(data_count[0]['COUNT'])
+domain = 'data.cityofnewyork.us'
+client_id = 'nc67-uf89'
 
 
-def get_stats(page_size, num_pages, output):
+def get_stats():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-p', '--page_size', 
 	                    help= "To input records to request API", 
-	                    type=int, dest = page_size)
+	                    type=int)
 	parser.add_argument('-n', '--num_pages', 
 	                    help= "The number of times to query for data", 
-	                    type=int, dest = num_pages)
-	parser.add_argument('-o', '--output', default = None, dest=output, help = "To print as .json or stdout")
-
-	(options, arguments) = parser.parse_args()
-
-	if page_size >= 1 and type==int:
-		options.page_size = page_size
-	if not
-		parser.error("[-] Please input an integer value, use --help for more info")
-	
-	if num_pages >= 1 and type==int: 
-		options.num_pages = page_size
-	if not
-		parser.error("[-] Please input an integer value, use --help for more info")
-	if output is not ".json" or "stdout": 
-		raise Exception e 
-
-return options
+	                    type=int)
+	parser.add_argument('-o', '--output', default = None, 
+		help = "To print as .json or stdout")
+	return parser.parse_args() 
 
 options = get_stats()
-
-terminal_result_page_size = subprocess.check_output(["python", "main.py", options.page_size])
-terminal_result_num_page = subprocess.check_output(["python", "main.py", options.num_page])
-terminal_result_output = subprocess.check_output(["python", "main.py", options.output])
-
-print(terminal_result_page_size)
-print(terminal_result_num_page)
-print(terminal_result_output)
+print '[+] Requested ', options.page_size,  '  Records From The API Per Call' 
+print '[+] Requested To Run Query ',  options.num_pages, 'x'
+print '[+] Requested To Load Data As A ', options.output, ' File Type'
 
 
+def get_data(options):
+	outfile = data.get(client_id, 
+		limits=options.page_size, 
+		offset=options.num_pages)
+	if not options.num_pages: 
+		options.num_pages = count // options.page_size + 1 
+	for options.output in options != "results.json": 
+		print outfile
+	if options.page_size in xrange(1,100):
+		if options.output is "dataset.json": 
+			with open('results.json', 'a') as outfile:
+					for info in outfile: 
+						file.write({json.dump(info)})
+						return outfile
 ```
 
 
