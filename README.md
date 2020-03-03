@@ -17,11 +17,12 @@ import json
 from sodapy import Socrata 
 import argparse
 
+domain = 'data.cityofnewyork.us'
+client_id = 'nc67-uf89'
 data = Socrata(domain, APP_KEY)
 data_count = Socrata(domain, APP_KEY,).get(client_id, select ='COUNT(*)')
 count = int(data_count[0]['COUNT'])
-domain = 'data.cityofnewyork.us'
-client_id = 'nc67-uf89'
+
 
 
 def get_stats():
