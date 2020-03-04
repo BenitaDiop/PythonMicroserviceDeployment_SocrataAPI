@@ -21,7 +21,8 @@ if __name__ == '__main__':
 	print('[+] Requested To Run Query ',  options.num_pages, 'x')
 	print('[+] Requested To Load Data As A ', options.output, ' File Type')
 	get_data(options)
-
+```
+```python
 
 import os
 import json 
