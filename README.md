@@ -13,17 +13,26 @@ The goal is to develope a script with sepearate components that will collectivel
 	3. Give client the option to print results as a .json file or stdout <br/>
 
 ``` python
+from src.APIcall import get_data, get_stats
+
+if __name__ == '__main__':
+	options = get_stats()
+	print('[+] Requested ', options.page_size,  ' Records From The API Per Call') 
+	print('[+] Requested To Run Query ',  options.num_pages, 'x')
+	print('[+] Requested To Load Data As A ', options.output, ' File Type')
+	get_data(options)
+
+
+import os
 import json 
-from sodapy import Socrata 
 import argparse
+from sodapy import Socrata 
 
 domain = 'data.cityofnewyork.us'
 client_id = 'nc67-uf89'
-data = Socrata(domain, APP_KEY)
-data_count = Socrata(domain, APP_KEY,).get(client_id, select ='COUNT(*)')
+data = Socrata(domain, os.getenv("APP_KEY"))
+data_count = data.get(client_id, select ='COUNT(*)')
 count = int(data_count[0]['COUNT'])
-
-
 
 def get_stats():
 	parser = argparse.ArgumentParser()
@@ -37,26 +46,27 @@ def get_stats():
 		help = "To print as .json or stdout")
 	return parser.parse_args() 
 
-options = get_stats()
-print '[+] Requested ', options.page_size,  '  Records From The API Per Call' 
-print '[+] Requested To Run Query ',  options.num_pages, 'x'
-print '[+] Requested To Load Data As A ', options.output, ' File Type'
-
-
 def get_data(options):
-	outfile = data.get(client_id, 
-		limits=options.page_size, 
-		offset=options.num_pages)
 	if not options.num_pages: 
 		options.num_pages = count // options.page_size + 1 
-	for options.output in options != "results.json": 
-		print outfile
-	if options.page_size in xrange(1,1000):
-		if options.output is "dataset.json": 
-			with open('results.json', 'a') as outfile:
-					for info in outfile: 
-						file.write({json.dump(info)})
-						return outfile
+	if options.output == 'results.json':
+		with open('results.json', 'w') as results:
+			pass
+	for runs in range(options.num_pages):
+		offset = options.page_size*runs
+		outfile = data.get(client_id, 
+			limit=options.page_size, 
+			offset=offset)
+		for result in outfile:
+			if options.output != 'results.json':
+				print(result)
+			else:
+				with open("results.json", "a") as results:
+					results.write(json.dumps(result) + '\n')	
+
+
+
+
 ```
 
 
@@ -79,6 +89,14 @@ def get_data(options):
 <br/>	
 <b> RUN </b> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
 <br/>
+	
+```bash
+docker build -t bigdata1:1.0 .
+docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
+docker tag 005136a55f9f benitad/bigdata1:1.0
+docker push benitad/bigdata1
+```
+		
 <br/>
 	
 <b> 2.) Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command </b>
@@ -89,12 +107,7 @@ def get_data(options):
 </h10>
 </br> 
 
-```bash
-docker build -t bigdata1:1.0 .
-docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
-docker tag 005136a55f9f benitad/bigdata1:1.0
-docker push benitad/bigdata1
-```
+
 
 *******
 ### AWS EC2
