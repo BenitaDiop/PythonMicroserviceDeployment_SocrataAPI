@@ -91,11 +91,15 @@ def get_data(options):
 <b> RUN </b> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
 <br/>
 	
+	
+##### Docker Command Line Snippets 	
+	
 ```bash
 docker build -t bigdata1:1.0 .
 docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
 docker tag 005136a55f9f benitad/bigdata1:1.0
 docker push benitad/bigdata1
+docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m main --num_pages 5 --page_size 5 --output=/app/foo/results.json
 ```
 		
 <br/>
