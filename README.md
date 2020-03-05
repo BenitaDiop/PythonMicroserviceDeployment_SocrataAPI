@@ -85,7 +85,6 @@ def get_data(options):
 		1st.) Fudamental Instructions. <br/>
 		2nd.) Configuration Instructions. <br/>
 		3rd.) Execution Instructions. <br/> 
-<br/>	
 <b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
 <br/>	
 <b> RUN </b> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
