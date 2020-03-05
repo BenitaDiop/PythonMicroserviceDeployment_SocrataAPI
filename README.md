@@ -1,12 +1,14 @@
 # Python Microservice Architecture With Socrata API
 
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
-- [Heading](#heading)
+- [OBJECTIVES](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI/blob/master/README.md#objective)
   * [Python](#sub-heading)
   * [Dcoker](#sub-heading)
   * [Amazon Web Serivces EC@](#sub-heading)
   * [ElasticSearch](#sub-heading)
   * [Kibana](#sub-heading)
+  * [API Data](#sub-heading)
+  * [Resources Documents](#sub-heading)
 
 
 
