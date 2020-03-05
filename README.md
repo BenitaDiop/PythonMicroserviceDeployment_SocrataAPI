@@ -114,6 +114,9 @@ docker push benitad/bigdata1
 ### AWS EC2
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+
+![EC2](https://photos.app.goo.gl/9SXRCACBsMNEU7p66)
 	
 ********
 
