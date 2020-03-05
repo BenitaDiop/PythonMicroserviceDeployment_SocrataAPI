@@ -32,6 +32,8 @@ if __name__ == '__main__':
 	print('[+] Requested To Load Data As A ', options.output, ' File Type')
 	get_data(options)
 ```
+
+
 ```python
 
 import os
@@ -60,8 +62,8 @@ def get_stats():
 def get_data(options):
 	if not options.num_pages: 
 		options.num_pages = count // options.page_size + 1 
-	if options.output == 'results.json':
-		with open('results.json', 'w') as results:
+	if options.output and '.json' in options.output:
+		with open(options.output, 'w') as results:
 			pass
 	for runs in range(options.num_pages):
 		offset = options.page_size*runs
@@ -69,11 +71,14 @@ def get_data(options):
 			limit=options.page_size, 
 			offset=offset)
 		for result in outfile:
-			if options.output != 'results.json':
+			if not options.output or '.json' not in options.output:
 				print(result)
 			else:
-				with open("results.json", "a") as results:
+				with open(options.output, "a") as results:
 					results.write(json.dumps(result) + '\n')	
+
+
+	
 
 
 
