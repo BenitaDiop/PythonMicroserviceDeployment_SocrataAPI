@@ -2,13 +2,13 @@
 
 Accessing Open Parking and Camera Violation API to analyze the parking violations issued in fiscal year 2020. 
 - [OBJECTIVES](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI/blob/master/README.md#objective)
-  * [Python](#sub-heading)
-  * [Dcoker](#sub-heading)
-  * [Amazon Web Serivces EC@](#sub-heading)
-  * [ElasticSearch](#sub-heading)
-  * [Kibana](#sub-heading)
-  * [API Data](#sub-heading)
-  * [Resources Documents](#sub-heading)
+  * [Python](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI/blob/master/README.md#python)
+  * [Docker](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#docker)
+  * [Amazon Web Serivces EC@](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#aws-ec2)
+  * [ElasticSearch](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#elasticsearch)
+  * [Kibana](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#kibana)
+  * [API Data](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#api-data)
+  * [Resources Documents](https://github.com/BenitaDiop/PythonMicroserviceDeployment_SocrataAPI#resourceful-documentation)
 
 
 
