@@ -176,7 +176,7 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 
 
 
-## Deployment
+## TBD
 
 
 ## Resourceful Documentation 
