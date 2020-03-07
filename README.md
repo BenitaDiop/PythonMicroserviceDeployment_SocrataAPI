@@ -146,6 +146,27 @@ docker-compose down
 	+. (N/2)+1 is the total number of required working nodes to keep a swarm still functioning. (N=Total Number of Nodes)
 3.
 
+```
+docker-machine create --driver virtualbox manager
+docker-machine create --driver virtualbox worker-1
+docker-machine stop manager 
+docker machine start manager
+
+docker-machiner ssh manager 
+
+docker swarm init -advertise-addr 000.000.00.000
+docker swarm join --token {[docker swarn join token worker]}
+
+docker node ls 
+docker node inspect --pretty self 
+
+docker service create --name web-server -p 0000.00 -replace image:tag
+docker service ls
+
+docker service ps image
+```
+
+
 
 </br> 
 
