@@ -187,14 +187,25 @@ docker node rm worker-2
 ********
 
 ### ELASTICSEARCH
+ElsticSearch can be definied as compelete data warehousing an business intelligence application. Elasticsearch coverts raw data such as log files into internal documents and stores them on a distributed storage where they can be quereied. 
+
+##### Getting Started With ElasticSearch 
+
+```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+```
 
 *******
 
 ### KIBANA
+Once data has been indexed by ElasticSearch, Kibana helps make sense of the data. Kibana is a  browser interface that can be used to search and visualize data. 
+
+```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+```
 
 </br>
 
