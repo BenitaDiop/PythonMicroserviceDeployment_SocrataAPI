@@ -146,7 +146,7 @@ docker-compose down
 	+. (N/2)+1 is the total number of required working nodes to keep a swarm still functioning. (N=Total Number of Nodes)
 3.
 
-```
+```bash
 docker-machine create --driver virtualbox manager
 docker-machine create --driver virtualbox worker-1
 docker-machine stop manager 
@@ -164,6 +164,12 @@ docker service create --name web-server -p 0000.00 -replace image:tag
 docker service ls
 
 docker service ps image
+
+docker node update -- availability drain worker-2 
+docker swarm leave 
+docker node rm worker-2
+
+
 ```
 
 
