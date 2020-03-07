@@ -95,7 +95,7 @@ def get_data(options):
 <br/>
 
 <h10>
-<b> Docker Engine: Managing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
+<b> 1.) Docker Engine: Managing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
 <b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
 		1st.) Fudamental Instructions. <br/>
 		2nd.) Configuration Instructions. <br/>
@@ -120,15 +120,31 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 	
 <b> 2.) Docker Compose: Defining multi-container full fledge applications in a single file and then spin up the same application in a single command. Docker compose allows for the development and integration of mulitple objects such as containers, networks and services in a single file known as blocks which will get passed on to Docker engine.   </b>
 
-1) Docker Compose YAML File Dataypes:
+1) Docker Compose YAML File Datatypes:
 	+ Scalars | Sequences | Mappings
 
-
 ```bash
+docker-compose up -d  
+	#Creates deafult network and makes sure all the network requirements of preceeding services will be fuffilled. 
 
+docker exec -it [container] bash 
+docker run -it --link [container:version] --rm [] sh -c  'exec [] -h $ROOT_PRIVLEDGES bash
 
-
+docker-compose config 
+docker-compase config --services
+docker-compose images
+docker-compose logs 
+docker-compose logs --tail=10
+docker-compose top
+docker-compose down 
 ```
+
+<b> 3.) Docker Swarm -- The ability to make all host collabaorate and run in a an insync manner. Container Orchestrator is a tool used to provision, schedule and mange containers at large scale over one or more clusters of multiple hosts. Turns a cluster of host into one manager and multiple workers. The manager serves the services request and transfer task to the worker. 
+</b> 
+1.
+2.
+3.
+
 
 </br> 
 
