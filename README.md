@@ -178,16 +178,19 @@ docker node rm worker-2
 
 *******
 ### AmazonWebServices Elastic Compute Cloud (EC2)
+Making computing services accesible, resizable, secure and affroable with a virtual private cloud. An EC2 server is called and instance which provide user with all all the functionalities of a traditonal server without the upfront hardware cost.
+
+```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+```
 
 ![EC2](https://lh3.googleusercontent.com/Vz-aMtbFjm29-xm4-dcTcTjFy1lZ191AZpNCpWC4HUyotHVtda6j6etWk6j3dMaalMm6nO8A1LDb6k_U8l825F_3vl8XYTO2RWK_zVQk01nwFm2DlA8f97dKjbJTtTbkN9HC_AY-6GH7n2NBbybRmaAzK5gOtwDvWvSRLqXnA_mdNJ81WtnBvvW0ZSb7NGrVLIXvfBSvNaQ7-XQrIJX3vtykI8gfGuBKnU_cqE-l35Q7zUBDNV0esvVUYUkAe1Ljgdvi_E2RQuMgxVhQQRXCKcFpML97xupSqgJvZXwJp8LiZgvNK9heYd68MPlvpkD4OOX-fNK9RkWE1NaV_QyICTU4aw5LVX9zHf1Xui7AXjvKV17pVSoIOhuOxIghsUXKWLa_MZEEoWxY0J_HFHbc9sYwNP1W4pKmjt0uCXToQpQXUA8UC9RF3V-dsk-6zgDN30TxjYrmy2hFfWd8qNPAcpnIBsFvng8LMkyS1Y_HSiZU8YI4v5krdSfKXTQPVMc2n06_j8MtYAxEqoOZh-WVjXxtxE9j6-D7xF8zDuLWQbqaYSJgRFv5D293EvZKHgsoLTV-Hv93AEg9IyG7et-F4n5a1fyeuWNdqh8lOoV7ZfszQYsrZHQS-6wiUgtTMxbs3_zVRGaaOIFSHlWxJ32lel7L657MGy-miN2nAPBin83KWT9A3RLbGnc=w1211-h544-no)
 	
 ********
 
 ### ELASTICSEARCH
-ElsticSearch can be definied as compelete data warehousing an business intelligence application. Elasticsearch coverts raw data such as log files into internal documents and stores them on a distributed storage where they can be quereied. 
+ElsticSearch can be definied as a compelete data warehousing an business intelligence application. Elasticsearch coverts raw data such as log files into internal documents and stores them on a distributed storage where they can be quereied. 
 
 ##### Getting Started With ElasticSearch 
 
