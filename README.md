@@ -134,7 +134,7 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 
-![EC2]( https://photos.app.goo.gl/1QycBxzBQxeMiEWv7)
+![EC2](https://lh3.googleusercontent.com/Vz-aMtbFjm29-xm4-dcTcTjFy1lZ191AZpNCpWC4HUyotHVtda6j6etWk6j3dMaalMm6nO8A1LDb6k_U8l825F_3vl8XYTO2RWK_zVQk01nwFm2DlA8f97dKjbJTtTbkN9HC_AY-6GH7n2NBbybRmaAzK5gOtwDvWvSRLqXnA_mdNJ81WtnBvvW0ZSb7NGrVLIXvfBSvNaQ7-XQrIJX3vtykI8gfGuBKnU_cqE-l35Q7zUBDNV0esvVUYUkAe1Ljgdvi_E2RQuMgxVhQQRXCKcFpML97xupSqgJvZXwJp8LiZgvNK9heYd68MPlvpkD4OOX-fNK9RkWE1NaV_QyICTU4aw5LVX9zHf1Xui7AXjvKV17pVSoIOhuOxIghsUXKWLa_MZEEoWxY0J_HFHbc9sYwNP1W4pKmjt0uCXToQpQXUA8UC9RF3V-dsk-6zgDN30TxjYrmy2hFfWd8qNPAcpnIBsFvng8LMkyS1Y_HSiZU8YI4v5krdSfKXTQPVMc2n06_j8MtYAxEqoOZh-WVjXxtxE9j6-D7xF8zDuLWQbqaYSJgRFv5D293EvZKHgsoLTV-Hv93AEg9IyG7et-F4n5a1fyeuWNdqh8lOoV7ZfszQYsrZHQS-6wiUgtTMxbs3_zVRGaaOIFSHlWxJ32lel7L657MGy-miN2nAPBin83KWT9A3RLbGnc=w1211-h544-no)
 	
 ********
 
