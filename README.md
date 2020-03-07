@@ -140,9 +140,10 @@ docker-compose down
 ```
 
 <b> 3.) Docker Swarm -- The ability to make all host collabaorate and run in a an insync manner. Container Orchestrator is a tool used to provision, schedule and mange containers at large scale over one or more clusters of multiple hosts. Turns a cluster of host into one manager and multiple workers. The manager serves the services request and transfer task to the worker. 
-</b> 
-1.
-2.
+</b> </br> 
+
+1. Can Docker Swarm handle Failure? Yes, If one node goes down the work goes to another node. If the master goes down then another node will be elected. 
+	+. (N/2)+1 is the total number of required working nodes to keep a swarm still functioning. (N=Total Number of Nodes)
 3.
 
 
