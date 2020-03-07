@@ -177,7 +177,7 @@ docker node rm worker-2
 </br> 
 
 *******
-### AWS EC2
+### AmazonWebServices Elastic Compute Cloud (EC2)
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
