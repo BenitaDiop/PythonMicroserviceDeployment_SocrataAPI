@@ -118,15 +118,19 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 		
 <br/>
 	
-<b> 2.) Docker Compose: Defining multi-container applications in a single file and then spin up the same application in a single command </b>
-1. Lorem ipsum dolor sit amet <br/>
-2. Lorem ipsum dolor sit amet <br/>
-3. Lorem ipsum dolor sit amet <br/>
-	</br>
-</h10>
+<b> 2.) Docker Compose: Defining multi-container full fledge applications in a single file and then spin up the same application in a single command. Docker compose allows for the development and integration of mulitple objects such as containers, networks and services in a single file known as blocks which will get passed on to Docker engine.   </b>
+
+1) Docker Compose YAML File Dataypes:
+	+ Scalars | Sequences | Mappings
+
+
+```bash
+
+
+
+```
+
 </br> 
-
-
 
 *******
 ### AWS EC2
