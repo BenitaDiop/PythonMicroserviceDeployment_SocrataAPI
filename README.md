@@ -171,7 +171,7 @@ docker-compose top
 docker-compose down 
 ```
 
-<b> Will not cover Docker Swarm in this project but below is useful DockerSwarm commannds
+***Will not cover Docker Swarm in this project but below is useful DockerSwarm commannds***
 
 ```bash
 docker-machine create --driver virtualbox manager
