@@ -246,7 +246,8 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 ********
 
 # ELASTICSEARCH
-ElsticSearch can be definied as a compelete data warehousing an business intelligence application. Elasticsearch coverts raw data such as log files into internal documents and stores them on a distributed storage where they can be quereied. 
+![image](https://user-images.githubusercontent.com/45861503/76170434-1e746580-613f-11ea-8414-e70c3f01e03c.png)
+ 
 
 ##### Getting Started With ElasticSearch 
 
