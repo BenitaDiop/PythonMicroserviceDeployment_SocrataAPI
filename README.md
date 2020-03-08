@@ -127,7 +127,7 @@ align="center">
 <br/>
 
 
-<b> Dockerfile </b> <br/>
+<b>Dockerfile Requirements </b> <br/>
 
 		1st.) Fudamental Instructions. <br/>
 		2nd.) Configuration Instructions. <br/>
@@ -136,7 +136,7 @@ align="center">
 
 	
 	
-***Docker image Build Commands*
+***Docker Image Build Commands** Image = BigData1 | Version=1.0*
 	
 ```bash
 docker build -t bigdata1:1.0 .
@@ -171,7 +171,7 @@ docker-compose top
 docker-compose down 
 ```
 
-***Will not cover Docker Swarm in this project but below is useful DockerSwarm commannds***
+***Will not cover Docker Swarm in this project but below are noteworthy  DockerSwarm commannds***
 
 ```bash
 docker-machine create --driver virtualbox manager
