@@ -112,22 +112,26 @@ align="center">
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<body>
 
 
-<b> Utilized docker open-source platform to build, ship and run  a conatinerizaed application </b>
-<br/>
-<br/>
 
-<h10>
-<b> 1.) Docker Engine: Managing individual containers on Docker command line interface by accessing Docker Daemon through UNIX socket. </b> <br/>
-<b>BUILD </b>Designed Dockerfile to build a sequential set of instruction for Docker Engine. <br/>
+<img src="https://lh3.googleusercontent.com/MckLP71bkkRVzl6zHSL-BBiO5_AU0e1i6LNV_rUVQZWKW1as0TjKZ83MHquiy1vMLnsY7jIJ7rvw6tS5y9sOp7vZYNwMNa70WI_A0d7p4rcwe0_f8t3o9jSAbQnc_YUx0UR3pp0Yp6GEE2tS4Dbjm1m5_pC6dbhmb26s41QcYYuOyMKfgoK3RWhiNlzr7xMf3qew0fQGNQ0LkLWjazoPA4uPHTAthvmbsHbRR1gs_2_0UVVE_uhF-w3tVlwYkFMG_P2jeG_InFZH8sGHw0_x2ihNBcDyMvM-PVVzLSbaYM5YENQ9JKpYZtGqDLr7UFAaDJya5zB0eRVBe2hQY5-Rk4srJGA1OGx0HWZ9M2FuH2-J6GD_SaxholSEEPQYBDTwCq1ptWlIs5GB7I7xJRgRs-PdaoQhvs0D2m4P9aKIhqM-P7IbHC8CD9sE-dObpZotURrtmw5VT6EeYs0MO_8KZH7N47g7H7V7dkoIgDL6l4S_wybHPYND1GoHqacvAmBS25nmPeHzPM_wwV9Au13tDVDptCmuW9qFpEaSREWQod1MCQQ7oG4BOS2S6nTwm7vy5MmpXew0pTeGw4eFFVdX_x2-QKfJ49LWZ3msS8eHRi2BQqBOh1NakwDulO5z01jYt1KaOzuN5Dqn-U8CtnMM5elL1k1zL0e5GtAoq3NikMmHQLwDBhmMdXg=w628-h634-no"align="center">
+
+</body>
+</html>
+
+
+
+<b> Dockerfile </b> <br/>
+
 		1st.) Fudamental Instructions. <br/>
 		2nd.) Configuration Instructions. <br/>
 		3rd.) Execution Instructions. <br/> 
-<b> SHIP </b> Developed Docker Image which hold the entire package need to run applications 
-<br/>	
-<b> RUN </b> Deployed Docker Container to boost application scalability shipping a ready to run isolated system accompanied by its neceassary dependencies
-<br/>
+
+
 	
 	
 ##### Docker Command Line Snippets 	
@@ -142,7 +146,7 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 		
 <br/>
 	
-<b> 2.) Docker Compose: Defining multi-container full fledge applications in a single file and then spin up the same application in a single command. Docker compose allows for the development and integration of mulitple objects such as containers, networks and services in a single file known as blocks which will get passed on to Docker engine.   </b>
+<b> 2.) Docker Compose:    </b>
 
 1) Docker Compose YAML File Datatypes:
 	+ Scalars | Sequences | Mappings
