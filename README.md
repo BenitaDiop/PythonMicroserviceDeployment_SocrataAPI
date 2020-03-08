@@ -145,7 +145,7 @@ RUN pip install -r requirements.txt
 
 	
 	
-***Docker Image Build Commands** Image = BigData1 | Version=1.0*
+***Docker Commands Used to Build Image and Run Python API Call***
 	
 ```python
 docker build -t bigdata1:1.0 .
