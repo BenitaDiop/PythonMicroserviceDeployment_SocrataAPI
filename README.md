@@ -246,7 +246,8 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 ********
 
 # ELASTICSEARCH
-![image](https://user-images.githubusercontent.com/45861503/76170434-1e746580-613f-11ea-8414-e70c3f01e03c.png)
+
+![image](https://user-images.githubusercontent.com/45861503/76170522-d570e100-613f-11ea-8e2c-9e7ebc12167f.png)
  
 
 ##### Getting Started With ElasticSearch 
