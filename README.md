@@ -151,6 +151,37 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY {docker_image.name:image_versi
 		
 ## Docker Compose
 
+**Docker-Compose.yml**
+```SAS
+version: '3'
+services:
+  pyth:
+    network_mode: host
+    container_name: pyth
+    build:
+      context: .
+    volumes:
+      - .:/app:rw
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.3.2
+    ports:
+      - "5601:5601"
+
+```
+
+
 **Running** `Docker-Compose`
 ```bash
 docker-compose up -d
