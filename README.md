@@ -14,9 +14,9 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 
 
-## Objective:
+# Objective:
 *********
-### PYTHON
+# PYTHON
 <!DOCTYPE html>
 <html>
 <body>
@@ -98,7 +98,7 @@ def get_data(options):
 
 ********
 
-### DOCKER
+# DOCKER
 <b> Utilized docker open-source platform to build, ship and run  a conatinerizaed application </b>
 <br/>
 <br/>
