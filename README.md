@@ -17,16 +17,9 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 # Objective:
 *********
 # PYTHON
-<!DOCTYPE html>
-<html>
-<body>
+![image](https://user-images.githubusercontent.com/45861503/76158574-09122380-60cc-11ea-8114-9ff39c37f4c5.png)
 
 
-
-<img src="https://lh3.googleusercontent.com/qt7EgyhojcJp1KT03dHVljcIJLEoWr5AV4nw6GpaqlN_mPUQoUBt7KEEu-z0NAgp0DDI9vKLxzxkfn4H2ckDEQBOMPssPdzeQx5hPQ4HQMPY0QluGe4vR8cZ8ECAH0yg1xQ6elY4A13569vU-l1sLDesJnzSQQFCuPjjqhy1cZ2tf0GzWfSi7-KfbJMfPikc3g-AtvSBsrSelNQsGPF6JTPLcuHJKWzVuN9-kG9MaCYPyjtu-JbpjYSr9VvLgsvxaaTa3p_reJrClcxjj1HKuIgryBOo0RKENMFFreYMov5RdSnKhaMTugV7i_A95yOz0HjUjR_HohF7zC6Or2rfNXfg2w4Au8x5Q06S8AI8laNWzxkJq1z7XYT6KoUv-1Y8SOJNSXZW9ubf8DwBbN20hjlVtIMccyD6MBOzyrFbqSowUoyan7a2o4M2DZSYNk_7KW9AjhxJhXg8trQ7bRiSeTFl78qD5UVzNRpNEboMDSeOk56iRqYkqQHYi1c2XEYFh5YcpIennTSuDmBgQnbCyjiPgU3oT1n8vrsbXEdZEVcqXGiRVRpDlioRUPW_2vtdyfdXC7kuHqfAFY4TUaRLdNoCNvumaYEBqDtREnLPtHT8LC4039dikSZonBAivf3dFangz6VXul8KFZvKvtdXDaKhmXf8XJRs1yiaAgGU2GAkY7aet50XBXQ=w491-h221-no" width="850" height="275"  align="center">
-
-</body>
-</html>
 <br/>
 <br/>
 
