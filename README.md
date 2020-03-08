@@ -100,7 +100,7 @@ def get_data(options):
 <html>
 <body>
 <img src="https://user-images.githubusercontent.com/45861503/76159215-edf6e200-60d2-11ea-8bc8-d56a8abe5264.png" 
-align="left">
+align="center">
 </body>
 </html>
 
@@ -111,7 +111,7 @@ align="left">
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76159064-88562600-60d1-11ea-8780-9bc8419613c9.png"align="right">
+<img src="https://user-images.githubusercontent.com/45861503/76159248-429a5d00-60d3-11ea-8d0f-1010468f9838.png"align="center">
 </body>
 </html>
 
@@ -203,18 +203,8 @@ Making computing services accesible, resizable, secure and affroable with a virt
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ```
+![image](https://user-images.githubusercontent.com/45861503/76159358-8772c380-60d4-11ea-898c-25d34f7a14b2.png)
 
-<!DOCTYPE html>
-<html>
-<body>
-
-
-
-<img src="https://lh3.googleusercontent.com/zEmCRJQcJnNMDwktAaMWKTmJ4J2ijZJO5RxoBlB9Ip7Mo3xRz8u1AFDBpfrgugvdf6cWLJbG-4eUIBO2GuF2LYuj4sWU05sxLtcN_a_mHhCiEMNmuPUA8jwZf5J0pyKAVoSfKxlC3MAh44Q6ld1Q4SwFl6HwSTRBt_NNXWMvZLwIECfNWY94589AY52t8Z8QcEzF2g0lXn8-MDsP8YaWMorWHmCi8MKlnbd5kVhI_ZzwlbSFEq_M3KbYwu8ajJKeQpzhZFp2Mt-NX-8kWLkzE9FDgYVh1EObgbstE2rO9x_nVl904wba9QA2lPyV-KQ7v6cZ1m9Itu7-AQAW5zUMmAFL5VfxzZQ1TrK7ccSBcEyixJklbEsRiFjttSvWecR0GgtCgVrtIuEl1urRbYl_O68Jo_9kQXWkEvR8cCVysKZmVT5_EZhncKg6vNonDaoY9kbCLknJe8yZI97WaY56AmfhRlRA282l3Xv9Gwc7rDWegyGmTNEDcUaAd-WM6ZvIDDea4mC9QdFLRHhh_ZQZV9afa8oiajjaxy2RqQQWsElUEcNczS597KKp_0ruYlYV9jabnWAt6sIucMlN1PlltFrEeqHYfOXRCVI7S01ULoIxwbORnMzwDA4_Xqz4S7A6oK2-kjKF5dihykW54UnU1ENQPdeokryRjW_25jGyn9XF93XZLGDIKhY=w1211-h544-no" 
-align="center">
-
-</body>
-</html>
 	
 ********
 
