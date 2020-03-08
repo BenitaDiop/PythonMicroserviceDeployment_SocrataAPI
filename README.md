@@ -129,7 +129,7 @@ align="center">
 		3rd.) Execution Instructions. 
 **Dockerfile Used to build** `Docker Image`
 
-```python
+```yml
 ARG PYTHON_VERSION=3.7
 FROM python:${PYTHON_VERSION}
 WORKDIR /.app
