@@ -261,7 +261,7 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 *******
 
 # KIBANA
-Once data has been indexed by ElasticSearch, Kibana helps make sense of the data. Kibana is a  browser interface that can be used to search and visualize data. 
+![image](https://user-images.githubusercontent.com/45861503/76170522-d570e100-613f-11ea-8e2c-9e7ebc12167f.png)
 
 ```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
