@@ -261,7 +261,7 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 *******
 
 # KIBANA
-![image](https://user-images.githubusercontent.com/45861503/76170522-d570e100-613f-11ea-8e2c-9e7ebc12167f.png)
+![image](https://user-images.githubusercontent.com/45861503/76170981-33072c80-6144-11ea-9b94-fa20e7655a1c.png)
 
 ```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
