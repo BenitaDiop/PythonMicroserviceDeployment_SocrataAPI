@@ -20,7 +20,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76170842-14546600-6143-11ea-9f63-2ee7952e6556.png" width="900" height="900" align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76170842-14546600-6143-11ea-9f63-2ee7952e6556.png" width="750" height="750" align="center">
 </body>
 </html>
 
