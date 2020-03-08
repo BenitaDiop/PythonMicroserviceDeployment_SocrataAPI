@@ -197,8 +197,9 @@ docker node rm worker-2
 
 *******
 ### AmazonWebServices Elastic Compute Cloud (EC2)
-Making computing services accesible, resizable, secure and affroable with a virtual private cloud. An EC2 server is called and instance which provide user with all all the functionalities of a traditonal server without the upfront hardware cost.
+![image](https://user-images.githubusercontent.com/45861503/76159712-0e756b00-60d8-11ea-8429-d46c422c020f.png)
 
+#### SSH into EC2
 ```
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
