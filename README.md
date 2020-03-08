@@ -136,7 +136,7 @@ align="center">
 
 	
 	
-##### Docker Command Line Snippets 	
+***Docker image Build Commands*
 	
 ```bash
 docker build -t bigdata1:1.0 .
@@ -152,6 +152,8 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 
 1) Docker Compose YAML File Datatypes:
 	+ Scalars | Sequences | Mappings
+
+***Runing Docker Compose*** 
 
 ```bash
 docker-compose up -d  
@@ -169,37 +171,24 @@ docker-compose top
 docker-compose down 
 ```
 
-<b> 3.) Docker Swarm -- The ability to make all host collabaorate and run in a an insync manner. Container Orchestrator is a tool used to provision, schedule and mange containers at large scale over one or more clusters of multiple hosts. Turns a cluster of host into one manager and multiple workers. The manager serves the services request and transfer task to the worker. 
-</b> </br> 
-
-1. Can Docker Swarm handle Failure? Yes, If one node goes down the work goes to another node. If the master goes down then another node will be elected. 
-	+. (N/2)+1 is the total number of required working nodes to keep a swarm still functioning. (N=Total Number of Nodes)
-3.
+<b> Will not cover Docker Swarm in this project but below is useful DockerSwarm commannds
 
 ```bash
 docker-machine create --driver virtualbox manager
 docker-machine create --driver virtualbox worker-1
 docker-machine stop manager 
 docker machine start manager
-
 docker-machiner ssh manager 
-
 docker swarm init -advertise-addr 000.000.00.000
 docker swarm join --token {[docker swarn join token worker]}
-
 docker node ls 
 docker node inspect --pretty self 
-
 docker service create --name web-server -p 0000.00 -replace image:tag
 docker service ls
-
 docker service ps image
-
 docker node update -- availability drain worker-2 
 docker swarm leave 
 docker node rm worker-2
-
-
 ```
 
 
