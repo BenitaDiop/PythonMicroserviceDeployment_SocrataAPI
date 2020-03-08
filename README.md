@@ -238,7 +238,7 @@ sudo docker pull {docker_account}/{docker_image.name:image_version}
 sudo docker run -it {docker_account}/{docker_image.name:image_version} /bin/bash
 sudo docker run -it {docker_account}/{docker_image.name:image_version} python main.py --page_size {parameter} --num_pages {parameter} --output {parameter}
 ```
-- [x] Our initial main.py file is EC2 certified 
+- [x] ***Our initial main.py file is EC2 certified*** 
 
 ![image](https://user-images.githubusercontent.com/45861503/76159406-05cf6580-60d5-11ea-992d-41ca4f79d5cc.png)
 
