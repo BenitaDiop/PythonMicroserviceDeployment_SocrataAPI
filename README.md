@@ -129,9 +129,9 @@ align="center">
 
 <b>Dockerfile Requirements </b> <br/>
 
-		1st.) Fudamental Instructions. <br/>
-		2nd.) Configuration Instructions. <br/>
-		3rd.) Execution Instructions. <br/> 
+		1st.) Fudamental Instructions. 
+		2nd.) Configuration Instructions. 
+		3rd.) Execution Instructions. 
 
 
 	
