@@ -201,6 +201,8 @@ docker-compose down
 ```
 
 *Will not delve into Docker Swarm in this project but below are some noteworthy DockerSwarm commands*
+<br/>
+
 
 ```bash
 docker-machine create --driver virtualbox {Swarm_Node}
