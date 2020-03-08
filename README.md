@@ -39,7 +39,7 @@ if __name__ == '__main__':
 	print('[+] Requested To Load Data As A ', options.output, ' File Type')
 	get_data(options)
 ```
-***SOURCE CODE*** `APICall.py`
+**SOURCE CODE** `APICall.py`
 
 ```python
 
@@ -119,8 +119,10 @@ align="center">
 <br/>
 <br/>
 
+## DockerFile
 
-<b>Dockerfile Requirements </b> <br/>
+**Dockerfile Requirements** 
+<br/>
 
 		1st.) Fudamental Instructions. 
 		2nd.) Configuration Instructions. 
@@ -137,7 +139,7 @@ RUN pip install -r requirements.txt
 
 	
 	
-***Docker Commands Used to*** `Build Image` ***and*** `Run Python API Call`
+**Docker Commands Used to** `Build Image` ***and*** `Run Python API Call`
 	
 ```python
 docker build -t {docker_image.name:image_version} .
@@ -147,15 +149,9 @@ docker push {docker_image.name:image_version}
 docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY {docker_image.name:image_version} python -m main --num_pages {parameter} --page_size {parameter} --output= {parameter}
 ```
 		
-<br/>
-	
-<b> 2.) Docker Compose:    </b>
+## Docker Compose
 
-1) Docker Compose YAML File Datatypes:
-	+ Scalars | Sequences | Mappings
-
-***Runing Docker Compose*** 
-
+**Running** `Docker-Compose`
 ```bash
 docker-compose up -d
 docker-compose build pyth
@@ -197,10 +193,10 @@ docker node rm {Swarm_Node}
 </br> 
 
 *******
-### AmazonWebServices Elastic Compute Cloud (EC2)
+# AmazonWebServices Elastic Compute Cloud (EC2)
 ![image](https://user-images.githubusercontent.com/45861503/76159712-0e756b00-60d8-11ea-8429-d46c422c020f.png)
 
-#### SSH into EC2
+`SSH` **into** `EC2`
 ```
 ssh -i file.pem ubuntu@{IP_address}
 sudo apt install docker.io
@@ -216,7 +212,7 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 	
 ********
 
-### ELASTICSEARCH
+# ELASTICSEARCH
 ElsticSearch can be definied as a compelete data warehousing an business intelligence application. Elasticsearch coverts raw data such as log files into internal documents and stores them on a distributed storage where they can be quereied. 
 
 ##### Getting Started With ElasticSearch 
@@ -229,7 +225,7 @@ ElsticSearch can be definied as a compelete data warehousing an business intelli
 
 *******
 
-### KIBANA
+# KIBANA
 Once data has been indexed by ElasticSearch, Kibana helps make sense of the data. Kibana is a  browser interface that can be used to search and visualize data. 
 
 ```
@@ -242,7 +238,7 @@ Once data has been indexed by ElasticSearch, Kibana helps make sense of the data
 </br>
 
 
-### API DATA
+## API DATA
 </br> 
 
 ```json
