@@ -137,11 +137,11 @@ RUN pip install -r requirements.txt
 ***Docker Commands Used to Build Image and Run Python API Call***
 	
 ```python
-docker build -t bigdata1:1.0 .
-docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
-docker tag 005136a55f9f benitad/bigdata1:1.0
-docker push benitad/bigdata1
-docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m main --num_pages 5 --page_size 5 --output=/app/foo/results.json
+docker build -t {docker_image.name:image_version} .
+docker run -v $(pwd):/app -it {docker_account}/{docker_image.name:image_version} /bin/bash
+docker tag {docker_image_tag} {docker_image.name:image_desired_tagname}
+docker push {docker_image.name:image_version}
+docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY {docker_image.name:image_version} python -m main --num_pages {parameter} --page_size {parameter} --output= {parameter}
 ```
 <br/>
 <br/>
@@ -150,7 +150,7 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m
 
 **Docker-Compose.yml**
 
-```python
+```json
 version: '3'
 services:
   pyth:
@@ -185,12 +185,13 @@ services:
 
 
 ```bash
-docker-compose up -d  
-	#Creates deafult network and makes sure all the network requirements of preceeding services will be fuffilled. 
+docker-compose up -d
+docker-compose build pyth
+docker-compose run pyth bin/bash
 
+# Additional Compands {optional use}
 docker exec -it [container] bash 
 docker run -it --link [container:version] --rm [] sh -c  'exec [] -h $ROOT_PRIVLEDGES bash
-
 docker-compose config 
 docker-compase config --services
 docker-compose images
@@ -203,21 +204,20 @@ docker-compose down
 *Will not delve into Docker Swarm in this project but below are noteworthy DockerSwarm commannds*
 
 ```bash
-docker-machine create --driver virtualbox manager
-docker-machine create --driver virtualbox worker-1
-docker-machine stop manager 
-docker machine start manager
-docker-machiner ssh manager 
-docker swarm init -advertise-addr 000.000.00.000
-docker swarm join --token {[docker swarn join token worker]}
+docker-machine create --driver virtualbox {Swarm_Node}
+docker-machine stop {Swarm_Manager} 
+docker machine start {Swarm_Manager}
+docker-machiner ssh {Swarm_Node} 
+docker swarm init -advertise-addr {Ip_Address}
+docker swarm join --{docker_swarm_join_node_token}
 docker node ls 
-docker node inspect --pretty self 
-docker service create --name web-server -p 0000.00 -replace image:tag
+docker node inspect --pretty {Swarm_Node} 
+docker service create --name {Network} -p {Ip_Address} -replace {docker_image}:{docker_image_tag}
 docker service ls
-docker service ps image
-docker node update -- availability drain worker-2 
+docker service ps {docker_image}
+docker node update -- availability drain {Swarm-Node} 
 docker swarm leave 
-docker node rm worker-2
+docker node rm {Swarm_Node}
 ```
 
 
@@ -230,8 +230,12 @@ docker node rm worker-2
 
 #### SSH into EC2
 ```
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ssh -i file.pem ubuntu@{IP_address}
+sudo apt install docker.io
+sudo docker login --username={USERNAME}
+sudo docker pull {docker_account}/{docker_image.name:image_version}
+sudo docker run -it {docker_account}/{docker_image.name:image_version} /bin/bash
+sudo docker run -it {docker_account}/{docker_image.name:image_version} python main.py --page_size {parameter} --num_pages {parameter} --output {parameter}
 ```
 - [x] Our initial main.py file is EC2 certified 
 
