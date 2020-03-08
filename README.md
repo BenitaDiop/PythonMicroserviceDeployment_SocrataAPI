@@ -101,7 +101,7 @@ def get_data(options):
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76170895-9775bc00-6143-11ea-8481-7254df979b00.png">
+<img src="https://user-images.githubusercontent.com/45861503/76170895-9775bc00-6143-11ea-8481-7254df979b00.png" width="750" height="750" align="center">
 </body>
 </html>
 
@@ -112,7 +112,7 @@ def get_data(options):
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76159248-429a5d00-60d3-11ea-8d0f-1010468f9838.png"align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76170943-e15ea200-6143-11ea-9c4a-844426bdc17d.png" width="750" height="750" align="center">
 </body>
 </html>
 
