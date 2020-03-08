@@ -118,14 +118,13 @@ align="center">
 <br/>
 <br/>
 
-## Dockerfile
-<br/>
+
 <b>Dockerfile Requirements </b> <br/>
 
 		1st.) Fudamental Instructions. 
 		2nd.) Configuration Instructions. 
 		3rd.) Execution Instructions. 
-**Dockerfile Used to build Docker Image**
+*Dockefile Used to build Docker Image*
 
 ```python
 ARG PYTHON_VERSION=3.7
@@ -134,6 +133,9 @@ WORKDIR /.app
 COPY . .
 RUN pip install -r requirements.txt
 ```
+
+	
+	
 ***Docker Commands Used to Build Image and Run Python API Call***
 	
 ```python
@@ -143,46 +145,15 @@ docker tag {docker_image_tag} {docker_image.name:image_desired_tagname}
 docker push {docker_image.name:image_version}
 docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY {docker_image.name:image_version} python -m main --num_pages {parameter} --page_size {parameter} --output= {parameter}
 ```
+		
 <br/>
-<br/>
+	
+<b> 2.) Docker Compose:    </b>
 
-## Docker Compose  
-
-**Docker-Compose.yml**
-
-```json
-version: '3'
-services:
-  pyth:
-    network_mode: host
-    container_name: pyth
-    build:
-      context: .
-    volumes:
-      - .:/app:rw
-  elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
-    environment:
-      - cluster.name=docker-cluster
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    ports:
-      - "9200:9200"
-  kibana:
-    image: docker.elastic.co/kibana/kibana:6.3.2
-    ports:
-      - "5601:5601"
-
-```
-
+1) Docker Compose YAML File Datatypes:
+	+ Scalars | Sequences | Mappings
 
 ***Runing Docker Compose*** 
-
-
 
 ```bash
 docker-compose up -d
@@ -201,7 +172,7 @@ docker-compose top
 docker-compose down 
 ```
 
-*Will not delve into Docker Swarm in this project but below are noteworthy DockerSwarm commannds*
+*Will not delve into Docker Swarm in this project but below are some noteworthy DockerSwarm commands*
 
 ```bash
 docker-machine create --driver virtualbox {Swarm_Node}
