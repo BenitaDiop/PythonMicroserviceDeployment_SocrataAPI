@@ -118,13 +118,14 @@ align="center">
 <br/>
 <br/>
 
-
+## Dockerfile
+<br/>
 <b>Dockerfile Requirements </b> <br/>
 
 		1st.) Fudamental Instructions. 
 		2nd.) Configuration Instructions. 
 		3rd.) Execution Instructions. 
-*Dockefile Used to build Docker Image*
+**Dockerfile Used to build Docker Image**
 
 ```python
 ARG PYTHON_VERSION=3.7
@@ -133,9 +134,6 @@ WORKDIR /.app
 COPY . .
 RUN pip install -r requirements.txt
 ```
-
-	
-	
 ***Docker Commands Used to Build Image and Run Python API Call***
 	
 ```python
@@ -145,15 +143,46 @@ docker tag 005136a55f9f benitad/bigdata1:1.0
 docker push benitad/bigdata1
 docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY benitad/bigdata1:1.0 python -m main --num_pages 5 --page_size 5 --output=/app/foo/results.json
 ```
-		
 <br/>
-	
-<b> 2.) Docker Compose:    </b>
+<br/>
 
-1) Docker Compose YAML File Datatypes:
-	+ Scalars | Sequences | Mappings
+## Docker Compose  
+
+**Docker-Compose.yml**
+
+```python
+version: '3'
+services:
+  pyth:
+    network_mode: host
+    container_name: pyth
+    build:
+      context: .
+    volumes:
+      - .:/app:rw
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.3.2
+    ports:
+      - "5601:5601"
+
+```
+
 
 ***Runing Docker Compose*** 
+
+
 
 ```bash
 docker-compose up -d  
