@@ -125,7 +125,7 @@ align="center">
 		1st.) Fudamental Instructions. 
 		2nd.) Configuration Instructions. 
 		3rd.) Execution Instructions. 
-*Dockefile Used to build Docker Image*
+**Dockefile Used to build** `Docker Image`
 
 ```python
 ARG PYTHON_VERSION=3.7
@@ -137,7 +137,7 @@ RUN pip install -r requirements.txt
 
 	
 	
-***Docker Commands Used to Build Image and Run Python API Call***
+***Docker Commands Used to*** `Build Image` ***and*** `Run Python API Call`
 	
 ```python
 docker build -t {docker_image.name:image_version} .
