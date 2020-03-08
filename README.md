@@ -133,7 +133,15 @@ align="center">
 		1st.) Fudamental Instructions. 
 		2nd.) Configuration Instructions. 
 		3rd.) Execution Instructions. 
+*Dockefile Used to build Docker Image*
 
+```JSON
+ARG PYTHON_VERSION=3.7
+FROM python:${PYTHON_VERSION}
+WORKDIR /.app
+COPY . .
+RUN pip install -r requirements.txt
+```
 
 	
 	
