@@ -147,7 +147,7 @@ RUN pip install -r requirements.txt
 	
 ***Docker Image Build Commands** Image = BigData1 | Version=1.0*
 	
-```bash
+```python
 docker build -t bigdata1:1.0 .
 docker run -v $(pwd):/app -it bigdata1:1.0 /bin/bash
 docker tag 005136a55f9f benitad/bigdata1:1.0
