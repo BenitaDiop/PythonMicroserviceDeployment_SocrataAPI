@@ -208,7 +208,7 @@ docker-compose down
 docker-machine create --driver virtualbox {Swarm_Node}
 docker-machine stop {Swarm_Manager} 
 docker machine start {Swarm_Manager}
-docker-machiner ssh {Swarm_Node} 
+docker-machine ssh {Swarm_Node} 
 docker swarm init -advertise-addr {Ip_Address}
 docker swarm join --{docker_swarm_join_node_token}
 docker node ls 
