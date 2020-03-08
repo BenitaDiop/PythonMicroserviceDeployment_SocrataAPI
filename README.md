@@ -99,8 +99,8 @@ def get_data(options):
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76158976-935c8680-60d0-11ea-8fc7-a702d55df16c.png" 
-align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76159215-edf6e200-60d2-11ea-8bc8-d56a8abe5264.png" 
+align="left">
 </body>
 </html>
 
@@ -111,7 +111,7 @@ align="center">
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76159064-88562600-60d1-11ea-8780-9bc8419613c9.png"align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76159064-88562600-60d1-11ea-8780-9bc8419613c9.png"align="right">
 </body>
 </html>
 
