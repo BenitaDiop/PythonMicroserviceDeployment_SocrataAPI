@@ -204,7 +204,7 @@ docker node rm worker-2
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ```
-- [ X ] Our initial main.py file is EC2 certified 
+- [ x ] Our initial main.py file is EC2 certified 
 
 ![image](https://user-images.githubusercontent.com/45861503/76159406-05cf6580-60d5-11ea-992d-41ca4f79d5cc.png)
 
