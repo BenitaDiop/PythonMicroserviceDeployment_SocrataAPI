@@ -152,7 +152,7 @@ docker run -v ${PWD}:/app/foo -e APP_KEY=$APP_KEY {docker_image.name:image_versi
 ## Docker Compose
 
 **Docker-Compose.yml**
-```SAS
+```yml
 version: '3'
 services:
   pyth:
