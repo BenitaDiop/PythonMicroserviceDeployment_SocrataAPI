@@ -227,7 +227,7 @@ docker node rm {Swarm_Node}
 
 *******
 # AmazonWebServices Elastic Compute Cloud (EC2)
-![image](https://user-images.githubusercontent.com/45861503/76159712-0e756b00-60d8-11ea-8429-d46c422c020f.png)
+![image](https://user-images.githubusercontent.com/45861503/76170481-81fe9300-613f-11ea-8b22-df9e111777c4.png)
 
 `SSH` **into** `EC2`
 ```
