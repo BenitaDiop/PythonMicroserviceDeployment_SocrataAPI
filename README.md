@@ -91,12 +91,9 @@ def get_data(options):
 ********
 
 # DOCKER
-<!DOCTYPE html>
-<html>
-<body>
-<img src="https://user-images.githubusercontent.com/45861503/76170895-9775bc00-6143-11ea-8481-7254df979b00.png" width="550" height="535" align="center">
-</body>
-</html>
+
+
+![image](https://user-images.githubusercontent.com/45861503/76191046-abe5a300-619b-11ea-9eda-805a60dd6bd1.png)
 
 
 <br/>
