@@ -99,15 +99,8 @@ def get_data(options):
 <br/>
 
 
-<!DOCTYPE html>
-<html>
-<body>
-<img src="https://user-images.githubusercontent.com/45861503/76170943-e15ea200-6143-11ea-9c4a-844426bdc17d.png" width="560" height="525" align="center">
-</body>
-</html>
+![image](https://user-images.githubusercontent.com/45861503/76192576-61662580-619f-11ea-88be-9a21b09c86c0.png)
 
-<br/>
-<br/>
 
 ## DockerFile
 
