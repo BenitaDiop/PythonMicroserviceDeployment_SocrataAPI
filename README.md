@@ -263,9 +263,20 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 # KIBANA
 ![image](https://user-images.githubusercontent.com/45861503/76170981-33072c80-6144-11ea-9b94-fa20e7655a1c.png)
 
+### Kibana Ubuntu Installation
+
 ```
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+wget https://artifacts.elastic.co/downloads/kibana/kibana-7.6.1-amd64.deb
+shasum -a 512 kibana-7.6.1-amd64.deb 
+sudo dpkg -i kibana-7.6.1-amd64.deb
+
+ps -p 1
+
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable kibana.service
+
+sudo systemctl start kibana.service
+sudo systemctl stop kibana.service
 ```
 
 </br>
