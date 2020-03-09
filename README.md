@@ -16,16 +16,8 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 
 *********
 # PYTHON
+![image](https://user-images.githubusercontent.com/45861503/76187848-b308b300-6193-11ea-9142-0bfd8a6373a4.png)
 
-<!DOCTYPE html>
-<html>
-<body>
-<img src="https://user-images.githubusercontent.com/45861503/76170842-14546600-6143-11ea-9f63-2ee7952e6556.png" width="650" height="575" align="center">
-</body>
-</html>
-
-<br/>
-<br/>
 
 
 **SOURCE CODE** `main.py`
