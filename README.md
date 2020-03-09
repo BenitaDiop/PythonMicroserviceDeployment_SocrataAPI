@@ -20,7 +20,7 @@ Accessing Open Parking and Camera Violation API to analyze the parking violation
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76170842-14546600-6143-11ea-9f63-2ee7952e6556.png" width="550" height="500" align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76170842-14546600-6143-11ea-9f63-2ee7952e6556.png" width="650" height="575" align="center">
 </body>
 </html>
 
@@ -101,7 +101,7 @@ def get_data(options):
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76170895-9775bc00-6143-11ea-8481-7254df979b00.png" width="550" height="450" align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76170895-9775bc00-6143-11ea-8481-7254df979b00.png" width="550" height="525" align="center">
 </body>
 </html>
 
@@ -112,7 +112,7 @@ def get_data(options):
 <!DOCTYPE html>
 <html>
 <body>
-<img src="https://user-images.githubusercontent.com/45861503/76170943-e15ea200-6143-11ea-9c4a-844426bdc17d.png" width="550" height="450" align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76170943-e15ea200-6143-11ea-9c4a-844426bdc17d.png" width="550" height="525" align="center">
 </body>
 </html>
 
