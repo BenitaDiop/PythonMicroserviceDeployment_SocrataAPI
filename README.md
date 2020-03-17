@@ -345,6 +345,14 @@ sudo systemctl stop kibana.service
 
 </br>
 
+
+<iframe src="http://localhost:5601/goto/952f5b074fa06830a9f7eaef68ccf68c?embed=true" height="600" width="800"></iframe>
+
+
+
+
+
+
 </br>
 
 
