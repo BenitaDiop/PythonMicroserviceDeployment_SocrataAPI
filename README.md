@@ -345,6 +345,7 @@ sudo systemctl stop kibana.service
 
 </br>
 
+![image](https://user-images.githubusercontent.com/45861503/76892084-7a866a80-6860-11ea-8e5a-a8ed847bdf6c.png)
 
 ![image](https://user-images.githubusercontent.com/45861503/76879754-11e1c280-684d-11ea-9fa1-d4eb49764048.png)
 
