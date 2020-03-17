@@ -234,11 +234,13 @@ sudo docker run -it {docker_account}/{docker_image.name:image_version} python ma
 ![image](https://user-images.githubusercontent.com/45861503/76170522-d570e100-613f-11ea-8e2c-9e7ebc12167f.png)
  
 
-##### Getting Started With ElasticSearch 
+**Downloading `ElasticSearch` on `Ubuntu`**
 
 ```
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.1-amd64.deb
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.1-amd64.deb.sha512
+shasum -a 512 -c elasticsearch-7.6.1-amd64.deb.sha512 
+sudo dpkg -i elasticsearch-7.6.1-amd64.deb
 
 ```
 #### CODE
