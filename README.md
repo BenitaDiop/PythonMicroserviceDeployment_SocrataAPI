@@ -243,6 +243,12 @@ shasum -a 512 -c elasticsearch-7.6.1-amd64.deb.sha512
 sudo dpkg -i elasticsearch-7.6.1-amd64.deb
 
 ```
+
+```
+
+```
+
+
 #### CODE
 
 ```python
@@ -344,6 +350,13 @@ sudo /bin/systemctl enable kibana.service
 sudo systemctl start kibana.service
 sudo systemctl stop kibana.service
 ```
+
+
+```
+docker-compose run -e APP_KEY=$APP_KEY pyth python -m _main --page_size 500 --num_pages 500 --output results.json
+
+```
+
 
 </br>
 
