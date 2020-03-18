@@ -245,7 +245,8 @@ sudo dpkg -i elasticsearch-7.6.1-amd64.deb
 ```
 
 ```
-
+docker-compose logs elasticsearch
+sudo sysctl -w vm.max_map_count=262144
 ```
 
 
