@@ -362,7 +362,6 @@ docker-compose run -e APP_KEY=$APP_KEY pyth python -m _main --page_size 500 --nu
 ```
 
 
-</br>
 
 ![image](https://user-images.githubusercontent.com/45861503/76892084-7a866a80-6860-11ea-8e5a-a8ed847bdf6c.png)
 
@@ -376,11 +375,11 @@ docker-compose run -e APP_KEY=$APP_KEY pyth python -m _main --page_size 500 --nu
 
 
 
-</br>
+
 
 
 ## API DATA
-</br> 
+
 
 ```json
 {"plate": "27008JD", "state": "NY", "license_type": "COM", "summons_number": "1414761960", "issue_date": "10/17/2016", "violation_time": "02:53P", "violation": "DOUBLE PARKING", "fine_amount": "115", "penalty_amount": "0", "interest_amount": "0", "reduction_amount": "115", "payment_amount": "0", "amount_due": "0", "precinct": "041", "county": "BX", "issuing_agency": "POLICE DEPARTMENT", "violation_status": "HEARING HELD-NOT GUILTY", "summons_image": {"url": "http://nycserv.nyc.gov/NYCServWeb/ShowImage?searchID=VFZSUmVFNUVZekpOVkdzeVRVRTlQUT09&locationName=_____________________", "description": "View Summons"}}
