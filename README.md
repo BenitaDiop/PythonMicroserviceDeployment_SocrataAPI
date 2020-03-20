@@ -210,8 +210,6 @@ docker node rm {Swarm_Node}
 
 
 
-</br> 
-
 *******
 # AmazonWebServices Elastic Compute Cloud (EC2)
 ![image](https://user-images.githubusercontent.com/45861503/76192979-43e58b80-61a0-11ea-91df-d6b01175b84f.png)
