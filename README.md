@@ -1,4 +1,4 @@
-# Python Microservice Architecture With Socrata API
+# Python Microservice Architecture Developement With Socrata API
 
 In this project I leveraged Socrata OPCV API data to build a pipeline of logs from Docker Container to the Elasticsearch, Kibana Stack where data was collected, analyzed and transformed into visuals. Scripts were written in python and polished to be able to take in command line arguments from UNIX/LINUX operating systems. The scripts were tested for reproducibility by provisioning, configuring and executing an AWS EC2 instance which ran on a Docker container, read-in the python script, parsed in parameters from the command line and pull the API JSON logs. Additionally Git was utilized to maintain version control and prevent the confliction of concurrent work. 
 
